@@ -24,20 +24,20 @@ except:
 
 # Exercise 4: Your computer brand
 # Create a variable called computer_brand which value is the brand name of your computer.
-# Using the computer_brand variable, print a sentence that states the following: "I have a <computer_brand> computer."
 computer_brand = 'Lenovo Ideapad 5'
+# Using the computer_brand variable, print a sentence that states the following: "I have a <computer_brand> computer."
 print(f'I have a {computer_brand} computer\n')
 
 # Exercise 5: Your information
 # Create a variable called name, and set it’s value to your name.
-# Create a variable called age, and set it’s value to your age.
-# Create a variable called shoe_size, and set it’s value to your shoe size.
-# Create a variable called info and set it’s value to an interesting sentence about yourself. The sentence must contain all the variables created in parts 1, 2, and 3.
-# Have your code print the info message.
 name = 'Younes'
+# Create a variable called age, and set it’s value to your age.
 age = 25
+# Create a variable called shoe_size, and set it’s value to your shoe size.
 shoe_size = 40
+# Create a variable called info and set it’s value to an interesting sentence about yourself. The sentence must contain all the variables created in parts 1, 2, and 3.
 info = f'My name is {name} and I\'m {age}. Funny fact about me is I\'m a history nerd. My shoe size is {shoe_size}.'
+# Have your code print the info message.
 print(info + '\n')
 
 # Exercise 6: A & B
@@ -69,9 +69,9 @@ else:
 
 # Exercise 9: Tall enough to ride a roller coaster
 # Write code that will ask the user for their height in centimeters.
-# If they are over 145 cm, print a message that states they are tall enough to ride. If they are not tall enough, print a message that says they need to grow some more to ride.
 height = input('What\'s your height? (in cm)\t')
 try:
+    # If they are over 145 cm, print a message that states they are tall enough to ride. If they are not tall enough, print a message that says they need to grow some more to ride.
     if int(height) > 145:
         print('You are allowed to go for a ride.\n')
     else:

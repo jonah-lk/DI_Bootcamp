@@ -2,7 +2,7 @@
 # Write code that concatenates two lists together without using the + sign.
 sub_string_1 = 'Hello my name is Jonah.'
 sub_string_2 = 'I\'m 25 years old.'
-concat_strings = f"{sub_string_1} {sub_string_2}"
+concat_strings = f'{sub_string_1} {sub_string_2}'
 
 # Exercise 2: Range of numbers
 # Create a loop that goes from 1500 to 2500 and prints all multiples of 5 and 7.
@@ -13,8 +13,8 @@ for n in range(1500, 2501):
 
 # Exercise 3: Check the index
 # Using this variable: names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']
-# Ask a user for their name, if their name is in the names list print out the index of the first occurence of the name. 
 names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']
+# Ask a user for their name, if their name is in the names list print out the index of the first occurence of the name. 
 user_input = input('What\'s your name?\t')
 try:
     index = names.index(user_input.capitalize())
@@ -23,11 +23,11 @@ except:
     print('Your name is not in the list.')
 
 # Exercise 4: Greatest Number
-# Ask the user for 3 numbers and print the greatest number.
 count = 0
 numbers = []
 while count < 3:
     try:
+        # Ask the user for 3 numbers and print the greatest number.
         number = int(input('Give a number:\t'))
         numbers.append(number)
         count += 1
@@ -38,9 +38,9 @@ print(numbers)
 
 # Exercise 5: The Alphabet
 # Create a string of all the letters in the alphabet
+alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 # Loop over each letter and print a message that contains the letter and whether its a vowel or a consonant.
 vowels = ['a', 'e', 'o', 'i', 'y', 'u']
-alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 for alpha in alphabets:
     if alpha in vowels:
         print(f'{alpha} is a vowel.')
@@ -48,18 +48,18 @@ for alpha in alphabets:
         print(f'{alpha} in not a vowel.')
 
 # Exercise 6: Words and letters
-# Ask a user for 7 words, store them in a list named words.
-# Ask the user for a single character, store it in a variable called letter.
-# Loop through the words list and print the index of the first appearence of the letter variable in each word of the list.
-# If the letter doesn’t exist in one of the words, print a friendly message with the word and the letter.
 words = []
 for i in range(7):
+    # Ask a user for 7 words, store them in a list named words.
     word = input('Give a word.\t')
     words.append(word)
+# Ask the user for a single character, store it in a variable called letter.
 character = input('Give a character. \t')
 if len(character) != 1:
     print('Invalid! Your character is a.')
     character = 'a'
+# Loop through the words list and print the index of the first appearence of the letter variable in each word of the list.
+# If the letter doesn’t exist in one of the words, print a friendly message with the word and the letter.
 for word in words:
     try:
         print(f'Index of {character} in {word} is: {word.index(character)}')

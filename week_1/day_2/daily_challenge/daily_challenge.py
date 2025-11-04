@@ -26,4 +26,3 @@ for i in range(1, len(string)):
 no_dups_string = ''.join(no_dups)
 # 3. The program should print the modified string.
 print(no_dups_string)
-

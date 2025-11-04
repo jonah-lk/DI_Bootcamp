@@ -24,11 +24,11 @@ my_text = """   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 print(f'my_text variable holds {len(my_text)} characters.')
 
 # Exercise 5: Longest word without a specific character
-# Keep asking the user to input the longest sentence they can without the character “A”.
-# Each time a user successfully sets a new longest sentence, print a congratulations message.
 record = 0
+# Keep asking the user to input the longest sentence they can without the character “A”.
 while True:
     user_input = input('Give the longest sentence you can write without A. (If you want to quit type 0)\t')
+    # Each time a user successfully sets a new longest sentence, print a congratulations message.
     if user_input == '0':
         break
     elif 'A'.lower() in user_input.lower():
