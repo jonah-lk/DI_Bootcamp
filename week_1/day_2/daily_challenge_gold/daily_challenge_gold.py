@@ -7,9 +7,7 @@ def draw_birthday_cake(string):
     pattern = r'^(\d{1,2})/(\d{1,2})/(\d{1,4})$'
     if not re.match(pattern, string):
         return 'Invalid date format!'
-    day = re.findall(pattern, string)[0][0]
-    month = re.findall(pattern, string)[0][1]
-    year = re.findall(pattern, string)[0][2]
+    day, month, year = re.findall(pattern, string)[0]
     if not day.isdigit() or not month.isdigit() or not year.isdigit() or 1 < int(day) > 31 or 1 < int(month) > 12:
         return 'Invalid date!'
     # Display a little cake as seen below:
