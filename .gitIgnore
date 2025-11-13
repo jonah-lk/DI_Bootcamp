@@ -1,0 +1,94 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.envrc
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & Outputs ---
+*.log
+*.out
+*.err
+logs/
+nohup.out
+
+# --- Data & Models ---
+data/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.zip
+*.tar
+*.gz
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.joblib
+*.npy
+*.npz
+
+# --- Notebooks & Auto-Saves ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nb.html
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# --- Jupyter / Colab ---
+.jupyter/
+.colab/
+
+# --- Machine Learning ---
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+checkpoints/
+runs/
+
+# --- Environment / Config ---
+.env
+*.env
+.env.*
+config.yaml
+config.json
+settings.json
+
+# --- Cache ---
+.cache/
+__pycache__/
+*.cache
+*.pkl
+*.pickle
+*.tmp
