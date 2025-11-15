@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXIST day_5_project;
+
+USE day_5_project;
+
+CREATE TABLE blogs(
+    id SERIAL PRIMARY KEY,
+    title TEXT,
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
