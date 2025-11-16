@@ -33,6 +33,7 @@ Thumbs.db
 *.err
 logs/
 nohup.out
+*.mp3
 
 # --- Data & Models ---
 data/
