@@ -1,0 +1,38 @@
+[
+    {
+        "name": "jonah",
+        "age": 25,
+        "stats": {
+            "Strength": 9,
+            "Dexterity": 17,
+            "Constitution": 13,
+            "Intelligence": 10,
+            "Wisdom": 8,
+            "Charisma": 15
+        }
+    },
+    {
+        "name": "younes",
+        "age": 25,
+        "stats": {
+            "Strength": 13,
+            "Dexterity": 7,
+            "Constitution": 11,
+            "Intelligence": 14,
+            "Wisdom": 10,
+            "Charisma": 17
+        }
+    },
+    {
+        "name": "evnvs",
+        "age": 25,
+        "stats": {
+            "Strength": 11,
+            "Dexterity": 9,
+            "Constitution": 12,
+            "Intelligence": 10,
+            "Wisdom": 13,
+            "Charisma": 16
+        }
+    }
+]
