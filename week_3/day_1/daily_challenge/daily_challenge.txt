@@ -1,0 +1,11 @@
+Case Study: What the Study of Bodies in Herculaneum and Pompeii Taught Us
+Scientists have used modern data analysis to study the bodies found in Herculaneum and Pompeii,
+two cities destroyed by the eruption of Mount Vesuvius in 79 CE.
+Researchers analyzed skeletons, teeth, and even DNA. They used tools such as CT scans, chemical testing,
+and statistical comparisons to learn about diet, health, age, and lifestyle.
+Data analysis showed what the average Roman ate, how healthy they were, how long they lived,
+and what kinds of jobs they might have had. For example, chemical tests revealed that many people ate a lot of seafood,
+and bone analysis showed differences in nutrition between social classes.
+Without data analysis, we would only have guesses based on old writings or art.
+Data allowed researchers to make clear, evidence-based conclusions about everyday Roman life.
+This helped historians better understand how ordinary people lived, worked, and survived in the 1st century.
